@@ -36,10 +36,6 @@ ead:
       userEventQueue:
         name: ead.userevent.ms.course
 
-course:
-  refreshscope:
-    name: Brian Alves UPDATE!!!!
-
 management:
   endpoints:
     web:
