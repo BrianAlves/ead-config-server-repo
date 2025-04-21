@@ -17,3 +17,10 @@ spring:
             predicates:
               - Path=/ead-course/**
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
