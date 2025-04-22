@@ -25,6 +25,16 @@ spring:
   rabbitmq:
     addresses: amqps://ptnumalx:3J4tAfecpoN7tLpWCHTijezJn6y9CTly@campbell.lmq.cloudamqp.com/ptnumalx
 
+ead:
+  broker:
+    exchange:
+      notificationCommandExchange: ead.notificationcommand
+    queue:
+      notificationCommandQueue:
+        name: ead.notificationcommand.ms.notification
+    key:
+      notificationCommandKey: ms.notification
+
 logging:
   level:
     com.ead: TRACE
